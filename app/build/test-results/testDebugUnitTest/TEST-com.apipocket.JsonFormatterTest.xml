@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apipocket.JsonFormatterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-07T09:08:02.846Z" hostname="肆佰叁拾肆點柒" time="0.091">
+  <properties/>
+  <testcase name="invalidJsonFails" classname="com.apipocket.JsonFormatterTest" time="0.036"/>
+  <testcase name="prettyPrintsValidJson" classname="com.apipocket.JsonFormatterTest" time="0.053"/>
+  <testcase name="detectsJsonContent" classname="com.apipocket.JsonFormatterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

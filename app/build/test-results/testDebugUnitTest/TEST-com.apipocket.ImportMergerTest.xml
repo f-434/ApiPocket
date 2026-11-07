@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apipocket.ImportMergerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-07T09:08:02.800Z" hostname="肆佰叁拾肆點柒" time="0.043">
+  <properties/>
+  <testcase name="regeneratesDuplicateCollectionAndEnvironmentIds" classname="com.apipocket.ImportMergerTest" time="0.036"/>
+  <testcase name="keepsNewestHistoryWithinLimit" classname="com.apipocket.ImportMergerTest" time="0.002"/>
+  <testcase name="regeneratesDuplicateHistoryIds" classname="com.apipocket.ImportMergerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

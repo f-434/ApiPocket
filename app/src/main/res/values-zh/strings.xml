@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApiPocket</string>
+
+    <!-- 导航 -->
+    <string name="tab_request">请求</string>
+    <string name="tab_history">历史</string>
+    <string name="tab_collections">集合</string>
+    <string name="tab_environments">环境</string>
+    <string name="tab_settings">设置</string>
+
+    <!-- 通用操作 -->
+    <string name="action_save">保存</string>
+    <string name="action_send">发送</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_clear">清空</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_add">添加</string>
+    <string name="action_done">完成</string>
+    <string name="action_back">返回</string>
+    <string name="action_close">关闭</string>
+    <string name="action_copy">复制</string>
+    <string name="action_resend">重发</string>
+    <string name="action_format">格式化</string>
+    <string name="action_import">导入</string>
+    <string name="action_export">导出</string>
+    <string name="action_new_request">新建请求</string>
+    <string name="action_confirm">确认</string>
+    <string name="action_select_file">选择文件</string>
+    <string name="action_pick_file">选择文件</string>
+    <string name="copied">已复制到剪贴板</string>
+
+    <!-- 请求编辑 -->
+    <string name="env_none">无环境</string>
+    <string name="env_active">环境：%1$s</string>
+    <string name="url_hint">https://api.example.com/users</string>
+    <string name="method_label">方法</string>
+    <string name="tab_edit">编辑</string>
+    <string name="tab_response">响应</string>
+    <string name="request_tab_params">参数</string>
+    <string name="request_tab_headers">请求头</string>
+    <string name="request_tab_body">请求体</string>
+    <string name="request_tab_auth">认证</string>
+    <string name="key_hint">键</string>
+    <string name="value_hint">值</string>
+    <string name="add_row">添加一行</string>
+    <string name="no_params_hint">暂无查询参数</string>
+    <string name="no_headers_hint">暂无自定义请求头</string>
+    <string name="body_none">无</string>
+    <string name="body_json">JSON</string>
+    <string name="body_raw">原始</string>
+    <string name="body_form_data">表单</string>
+    <string name="body_urlencoded">x-www-form-urlencoded</string>
+    <string name="body_content_type">Content-Type</string>
+    <string name="body_empty_hint">此请求没有请求体</string>
+    <string name="json_invalid">JSON 格式无效</string>
+    <string name="json_formatted">JSON 已格式化</string>
+    <string name="json_format_failed">无法格式化 JSON</string>
+    <string name="form_type_text">文本</string>
+    <string name="form_type_file">文件</string>
+    <string name="form_no_file">未选择文件</string>
+    <string name="form_file_missing">需要重新选择文件</string>
+    <string name="auth_none">无认证</string>
+    <string name="auth_bearer">Bearer Token</string>
+    <string name="auth_basic">Basic Auth</string>
+    <string name="auth_api_key">API Key</string>
+    <string name="auth_token">Token</string>
+    <string name="auth_username">用户名</string>
+    <string name="auth_password">密码</string>
+    <string name="auth_key_name">键名</string>
+    <string name="auth_key_value">键值</string>
+    <string name="auth_key_location">添加位置</string>
+    <string name="auth_header">请求头</string>
+    <string name="auth_query">查询参数</string>
+    <string name="unresolved_vars">未解析变量：%1$s</string>
+    <string name="sending">发送中…</string>
+    <string name="request_name_hint">请求名称</string>
+
+    <!-- 保存请求 -->
+    <string name="save_dialog_title">保存请求</string>
+    <string name="save_dialog_collection">集合</string>
+    <string name="save_dialog_new_collection">新集合名称</string>
+    <string name="save_dialog_create_collection">创建新集合</string>
+    <string name="save_dialog_update_existing">更新原请求</string>
+    <string name="save_dialog_save_as_new">另存为新请求</string>
+    <string name="saved_success">请求已保存</string>
+    <string name="save_failed">保存请求失败</string>
+    <string name="save_need_collection">请选择或创建集合</string>
+    <string name="save_need_name">请输入请求名称</string>
+    <string name="unnamed_request">未命名请求</string>
+
+    <!-- 响应 -->
+    <string name="response_empty_title">暂无响应</string>
+    <string name="response_empty_message">配置请求后点击发送。</string>
+    <string name="response_headers">响应头</string>
+    <string name="response_body">响应体</string>
+    <string name="response_pretty">美化</string>
+    <string name="response_raw">原始</string>
+    <string name="response_no_headers">暂无响应头</string>
+    <string name="response_truncated_network">响应超过 5 MB，已截断。</string>
+    <string name="response_truncated_display">仅显示前 256 KB，复制将包含完整响应。</string>
+    <string name="response_time">%1$s</string>
+    <string name="response_size">%1$s</string>
+    <string name="response_status">状态</string>
+    <string name="sending_in_progress">正在发送请求…</string>
+
+    <!-- 历史 -->
+    <string name="history_title">历史记录</string>
+    <string name="history_search_hint">搜索 URL 或方法</string>
+    <string name="history_empty_title">暂无历史</string>
+    <string name="history_empty_message">发送过的请求会显示在这里。</string>
+    <string name="history_clear_title">清空历史记录？</string>
+    <string name="history_clear_message">所有历史请求将被删除，且无法恢复。</string>
+    <string name="history_cleared">历史记录已清空</string>
+    <string name="delete_request_title">删除此记录？</string>
+    <string name="delete_request_message">这条历史记录将被移除。</string>
+
+    <!-- 集合 -->
+    <string name="collections_title">集合</string>
+    <string name="collections_empty_title">暂无集合</string>
+    <string name="collections_empty_message">创建集合来分类管理常用请求。</string>
+    <string name="collection_new">新建集合</string>
+    <string name="collection_name">集合名称</string>
+    <string name="collection_rename">重命名集合</string>
+    <string name="collection_delete_title">删除集合？</string>
+    <string name="collection_delete_message">集合及其中的全部请求都将被删除。</string>
+    <string name="collection_requests_count">%1$d 个请求</string>
+    <string name="collection_empty_title">暂无已保存请求</string>
+    <string name="collection_empty_message">打开请求后点击保存即可存入集合。</string>
+    <string name="collection_created">集合已创建</string>
+    <string name="saved_request_delete_title">删除已保存的请求？</string>
+    <string name="saved_request_delete_message">此请求将从集合中移除。</string>
+
+    <!-- 环境 -->
+    <string name="environments_title">环境</string>
+    <string name="environments_empty_title">暂无环境</string>
+    <string name="environments_empty_message">创建环境后，可在请求中用 {{name}} 引用变量。</string>
+    <string name="environment_new">新建环境</string>
+    <string name="environment_name">环境名称</string>
+    <string name="environment_delete_title">删除环境？</string>
+    <string name="environment_delete_message">该环境中的变量将不再可用。</string>
+    <string name="environment_variables">变量</string>
+    <string name="environment_active">已激活</string>
+    <string name="environment_set_active">设为激活</string>
+    <string name="environment_saved">环境已保存</string>
+    <string name="environment_name_required">请输入环境名称</string>
+    <string name="variables_empty_hint">暂无变量</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_request_section">请求</string>
+    <string name="settings_request_timeout">超时时间</string>
+    <string name="settings_timeout_value">%1$d 秒</string>
+    <string name="settings_history_limit">历史记录上限</string>
+    <string name="settings_history_limit_value">%1$d 条</string>
+    <string name="settings_appearance_section">外观</string>
+    <string name="settings_theme">主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="settings_data_section">数据</string>
+    <string name="settings_export">导出数据</string>
+    <string name="settings_import">导入数据</string>
+    <string name="settings_clear_all">清空所有数据</string>
+    <string name="settings_clear_title">清空所有数据？</string>
+    <string name="settings_clear_message">集合、环境、历史和设置都将被删除，且无法恢复。</string>
+    <string name="settings_about_section">关于</string>
+    <string name="settings_version">版本 %1$s</string>
+    <string name="settings_storage_note">数据保存在本机。为方便接口调试，已允许明文 HTTP。</string>
+    <string name="export_success">数据已导出</string>
+    <string name="export_failed">导出失败</string>
+    <string name="import_failed">导入失败</string>
+    <string name="import_choose_mode_title">导入数据</string>
+    <string name="import_choose_mode_message">“合并”会将导入数据追加到本机，“替换”会覆盖全部数据。</string>
+    <string name="import_merge">合并</string>
+    <string name="import_replace">替换</string>
+    <string name="import_own_success">已导入 %1$d 个集合、%2$d 个环境</string>
+    <string name="import_postman_success">已导入 %1$d 个集合、%2$d 个请求</string>
+    <string name="import_skipped">已跳过 %1$d 项</string>
+    <string name="import_unknown_format">不支持的文件格式</string>
+    <string name="clear_done">所有数据已清空</string>
+
+    <!-- 错误 -->
+    <string name="error_invalid_url">URL 无效</string>
+    <string name="error_dns">无法解析主机地址</string>
+    <string name="error_connect">无法连接到服务器</string>
+    <string name="error_timeout">请求超时</string>
+    <string name="error_ssl">TLS/SSL 错误</string>
+    <string name="error_cancelled">请求已取消</string>
+    <string name="error_file_access">无法读取文件：%1$s</string>
+    <string name="error_file_access_unknown">无法读取所选文件</string>
+    <string name="error_invalid_header">请求头无效：%1$s</string>
+    <string name="error_unknown">请求失败：%1$s</string>
+    <string name="error_unknown_no_detail">请求失败</string>
+    <string name="status_code">HTTP %1$d</string>
+    <string name="no_environment_short">无</string>
+    <string name="loading">加载中…</string>
+</resources>
